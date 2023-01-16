@@ -47,8 +47,8 @@ Start the server
 
 ## Screenshots
 
-![Home Page](https://hirely-production.up.railway.app/)
-![Docs Page](https://hirely-production.up.railway.app/)
+![Home Page](https://github.com/catuchi/hirely/blob/main/assets/homepage.png?raw=true)
+![Docs Page](https://github.com/catuchi/hirely/blob/main/assets/docs%20page.png?raw=true)
 
 ## Related
 
