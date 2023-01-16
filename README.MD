@@ -1,6 +1,6 @@
 # Hirely API
 
-Back end structure for a Jobs web application
+Node.js full Back-End with user authentication & authorization, dynamic error handling, cross site scripting protection and easy-to-use documentation
 
 ## Demo
 
@@ -9,6 +9,14 @@ This app is deployed on Railway. Click here to check it out live [Hirely API](hi
 ## Documentation
 
 Check out Hirely API documentation to learn more or test API. [Documentation](https://hirely-production.up.railway.app/api-docs/)
+
+## Tech Stack
+
+**Server:** Node, Express
+
+**Data:** MongoDB, Mongoose, Mongo Atlas, Mongo Compass
+
+**Others:** JWT
 
 ## Run Locally
 
