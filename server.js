@@ -18,7 +18,7 @@ const express = require("express");
 const app = express();
 
 const connectDB = require("./db/connect");
-// const authenticateUser = require("./middleware/authentication");
+const authenticateUser = require("./middleware/authentication");
 // routers
 const authRouter = require("./routes/auth");
 const jobsRouter = require("./routes/jobs");
@@ -48,8 +48,7 @@ app.get("/", (req, res) => {
 
 // routes
 app.use("/api/v1/auth", authRouter);
-app.use("/api/v1/jobs", jobsRouter);
-// app.use("/api/v1/jobs", authenticateUser, jobsRouter);
+app.use("/api/v1/jobs", authenticateUser, jobsRouter);
 
 app.use(notFoundMiddleware);
 app.use(errorHandlerMiddleware);
