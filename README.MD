@@ -1,10 +1,10 @@
 # Hirely API
 
-Node.js full Back-End with user authentication & authorization, dynamic error handling, cross site scripting protection and easy-to-use documentation
+Full Back-End with user authentication & authorization, dynamic error handling, cross site scripting protection and easy-to-use documentation
 
 ## Demo
 
-This app is deployed on Railway. Click here to check it out live [Hirely API](hirely-production.up.railway.app)
+This app is deployed on Railway. Click here to check it out live [Hirely API](https://hirely-production.up.railway.app)
 
 ## Documentation
 
