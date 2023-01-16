@@ -1,10 +1,10 @@
 openapi: 3.0.0
 info:
-  title: Jobs API
+  title: Hirely API
   contact: {}
   version: "1.0"
 servers:
-  - url: https://jobs-api-06.herokuapp.com/api/v1
+  - url: https://hirely-production.up.railway.app/api/v1
     variables: {}
 paths:
   /auth/register:
